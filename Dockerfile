@@ -1,4 +1,4 @@
-FROM docker pull anapsix/alpine-java:jdk8
+FROM anapsix/alpine-java:jdk8
 
 MAINTAINER AlexLee <alexlee7171@gmail.com>
 
