@@ -1,3 +1,4 @@
+bootstrap.mlockall: true
 path:
   data: /data/data
   logs: /data/log
