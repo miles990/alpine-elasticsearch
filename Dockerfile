@@ -5,7 +5,7 @@ MAINTAINER AlexLee <alexlee7171@gmail.com>
 # Update and install all of the required packages.
 # At the end, remove the apk cache
 RUN apk upgrade --update && \
-	apk add --update wget curl wget ca-certificates && \
+	apk add --update curl wget ca-certificates && \
     rm -rf /var/cache/apk/*
 
 # Install Elasticsearch 2.3.3
